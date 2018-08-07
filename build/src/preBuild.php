@@ -1,7 +1,7 @@
 <?php
-namespace CodeEnigmaLocal;
+namespace CodeEnigmaLocal\Deployments;
 
-use CodeEnigma\launcher\preBuildDefault;
+use CodeEnigma\Deployments\launcher\preBuildDefault;
 
 class preBuild extends preBuildDefault {
   # Empty on purpose!

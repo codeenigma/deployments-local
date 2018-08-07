@@ -1,7 +1,7 @@
 <?php
-namespace CodeEnigmaLocal;
+namespace CodeEnigmaLocal\Deployments;
 
-use CodeEnigma\launcher\runTestsDefault;
+use CodeEnigma\Deployments\launcher\runTestsDefault;
 
 class runTests extends runTestsDefault {
   # Empty on purpose!

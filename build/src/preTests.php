@@ -1,7 +1,7 @@
 <?php
-namespace CodeEnigmaLocal;
+namespace CodeEnigmaLocal\Deployments;
 
-use CodeEnigma\launcher\preTestsDefault;
+use CodeEnigma\Deployments\launcher\preTestsDefault;
 
 class preTests extends preTestsDefault {
   # Empty on purpose!

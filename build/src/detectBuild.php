@@ -1,7 +1,7 @@
 <?php
-namespace CodeEnigmaLocal;
+namespace CodeEnigmaLocal\Deployments;
 
-use CodeEnigma\launcher\detectBuildDefault;
+use CodeEnigma\Deployments\launcher\detectBuildDefault;
 
 class detectBuild extends detectBuildDefault {
   # Empty on purpose!

@@ -1,7 +1,7 @@
 <?php
-namespace CodeEnigmaLocal;
+namespace CodeEnigmaLocal\Deployments;
 
-use CodeEnigma\launcher\postTestsDefault;
+use CodeEnigma\Deployments\launcher\postTestsDefault;
 
 class postTests extends postTestsDefault {
   # Empty on purpose!

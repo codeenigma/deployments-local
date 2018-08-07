@@ -1,7 +1,7 @@
 <?php
-namespace CodeEnigmaLocal;
+namespace CodeEnigmaLocal\Deployments;
 
-use CodeEnigma\launcher\cleanBuildDefault;
+use CodeEnigma\Deployments\launcher\cleanBuildDefault;
 
 class cleanBuild extends cleanBuildDefault {
   # Empty on purpose!

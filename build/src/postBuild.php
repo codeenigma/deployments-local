@@ -1,7 +1,7 @@
 <?php
-namespace CodeEnigmaLocal;
+namespace CodeEnigmaLocal\Deployments;
 
-use CodeEnigma\launcher\postBuildDefault;
+use CodeEnigma\Deployments\launcher\postBuildDefault;
 
 class postBuild extends postBuildDefault {
   # Empty on purpose!

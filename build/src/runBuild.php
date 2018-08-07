@@ -1,7 +1,7 @@
 <?php
-namespace CodeEnigmaLocal;
+namespace CodeEnigmaLocal\Deployments;
 
-use CodeEnigma\launcher\runBuildDefault;
+use CodeEnigma\Deployments\launcher\runBuildDefault;
 
 class runBuild extends runBuildDefault {
   # Empty on purpose!

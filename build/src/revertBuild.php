@@ -1,7 +1,7 @@
 <?php
-namespace CodeEnigmaLocal;
+namespace CodeEnigmaLocal\Deployments;
 
-use CodeEnigma\launcher\revertBuildDefault;
+use CodeEnigma\Deployments\launcher\revertBuildDefault;
 
 class revertBuild extends revertBuildDefault {
   # Empty on purpose!
