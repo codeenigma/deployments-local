@@ -19,7 +19,6 @@
         "codeenigma/deployments": "dev-robo"
     },
     "autoload": {
-        "psr-4": {"CodeEnigma\\Deployments\\": "src/common/"},
-        "psr-4": {"CodeEnigmaLocal\\Deployments\\": "../../../build/src/"}
+        "psr-4": {"CodeEnigmaLocal\\Deployments\\": "src/"}
     }
 }
