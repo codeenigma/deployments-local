@@ -1,0 +1,25 @@
+{
+    "name": "codeenigma/deployments-local",
+    "description": "Base project to include in projects that use codeenigma/deployments for CI.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gregharvey",
+            "email": "greg.harvey@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:gregharvey/deployments.git"
+        }
+    ],
+    "require": {
+        "codeenigma/deployments": "dev-robo"
+    },
+    "autoload": {
+        "psr-4": {"CodeEnigma\\": "src/common/"},
+        "psr-4": {"CodeEnigmaLocal\\": "build/src/"}
+    }
+}
